@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Phone Number Verification</h2>
+        <input type="text" id="phoneNumber" class="input-field" placeholder="Enter Phone Number" />
+        <button class="btn" id="sendOTPBtn">Send OTP</button>
+        <div class="message" id="errorMessage"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
